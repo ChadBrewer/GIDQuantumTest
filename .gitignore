@@ -1,0 +1,7 @@
+bin/
+obj/
+*.csproj.user
+*.sln.docstates
+*.suo
+*.user
+*.vs/

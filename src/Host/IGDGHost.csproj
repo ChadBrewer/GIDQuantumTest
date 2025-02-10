@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Quantum.Standard" Version="0.29.240229-ci.2181" />
+    <PackageReference Include="Microsoft.Quantum.Simulators" Version="0.29.240229-ci.2181" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quantum\IGDGQuantumTest.Quantum.csproj" />
+  </ItemGroup>
+
+</Project>
