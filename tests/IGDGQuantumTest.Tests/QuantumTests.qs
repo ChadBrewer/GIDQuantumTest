@@ -1,13 +1,15 @@
-namespace IGDGQuantumTest.Tests {
-
+namespace IGDGQuantumTest.Tests 
+{
+    open IGDGQuantumTest.Quantum; // Replace with the correct namespace
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Diagnostics;
 
-    @Test()
-    function TestSimulateIGDG() : Unit {
+    @EntryPoint()
+    function TestSimulateIGDG() : Unit 
+    {
         Message("Running test for SimulateIGDG operation.");
-        // Placeholder test logic - replace with actual tests
-        Fact(true, "Placeholder test passed.");
+        let result = SimulateIGDG();
+        Fact(result == "Simulation complete: IGDG effects simulated.", "Check simulation result.");
     }
 }
