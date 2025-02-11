@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "quantum.qsharp-lang-vscode"
+        "quantum.qsharp-lang-vscode",
+        "quantum.qsharp-lang-vscode-dev",
+        "zetta.qsharp-extensionpack"
     ]
 }
