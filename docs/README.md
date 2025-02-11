@@ -1,5 +1,7 @@
 # IGDGQuantumTest
 
+Hypothesis: Information-Geometric Duality Gravity
+
 ## Overview
 
 This project is a simulation framework to explore aspects of the Information-Geometric Duality Gravity (IGDG) hypothesis using quantum computing. It is built using Q# for quantum simulations and C# for the host environment and testing.
