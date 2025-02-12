@@ -1,6 +1,6 @@
 namespace IGDGQuantumTest.Tests 
 {
-    open IGDGQuantumTest.Quantum;
+    open IGDGQuantumTest.Quantum.SimulateIGDG;
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Diagnostics;

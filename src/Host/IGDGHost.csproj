@@ -10,4 +10,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Quantum\IGDGQuantumTest.Quantum.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.3" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.2.3" />
+    <PackageReference Include="ScottPlot.Avalonia" Version="5.0.54" />
+  </ItemGroup>
 </Project>
